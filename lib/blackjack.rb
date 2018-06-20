@@ -42,7 +42,7 @@ def hit? (current_card_total)
   puts "Choice is #{choice}"
   if choice == "h"
     new_card_total = current_card_total + deal_card
-  else choice != "s"
+  elsif choice != "s"
     invalid_command
     prompt_user
   else
