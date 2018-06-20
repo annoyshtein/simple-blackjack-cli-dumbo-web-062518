@@ -5,6 +5,7 @@ end
 def deal_card
   puts "running deal_card"
   card = 1 + rand(11)
+  puts "card is #{card}"
   puts "Done running deal_card"
   return card
 end
@@ -42,7 +43,6 @@ def hit? (current_card_total)
   choice = get_user_input
   puts "Choice is #{choice}"
   if choice == "h"
-    
     new_card_total = current_card_total + deal_card
     
   elsif choice != "s"
