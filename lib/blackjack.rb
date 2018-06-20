@@ -63,6 +63,7 @@ end
 #####################################################
 
 def runner
+  puts "running hit?"
   welcome
   card_total = initial_round
   until card_total >= 21
