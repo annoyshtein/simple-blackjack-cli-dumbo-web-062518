@@ -46,6 +46,7 @@ def hit? (current_card_total)
     prompt_user
   else
   end
+  puts "done running hit?"
   return card_total
 end
 
