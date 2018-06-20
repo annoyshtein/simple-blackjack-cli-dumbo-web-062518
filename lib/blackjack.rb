@@ -68,6 +68,8 @@ def runner
   card_total_counter = initial_round
   puts "card_total_counter is #{card_total_counter}"
   until card_total_counter >= 21
+    puts "card_total_counter is #{card_total_counter}"
+    puts "We are in the loop."
     hit? (card_total)
     display_card_total (card_total)
   end
