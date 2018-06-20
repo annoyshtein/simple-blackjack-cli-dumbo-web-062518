@@ -70,7 +70,7 @@ def runner
   until card_total_counter >= 21
     puts "card_total_counter is #{card_total_counter}"
     puts "We are in the loop."
-    hit? (card_total_counter)
+    new_total = hit? (card_total_counter)
     display_card_total (card_total)
   end
   end_game
