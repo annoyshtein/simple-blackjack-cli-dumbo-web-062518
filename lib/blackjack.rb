@@ -32,7 +32,7 @@ def initial_round
   initial_card_total = deal_card + deal_card
   display_card_total(initial_card_total)
   puts "done running initial_round"
-  return card_total
+  return initial_card_total
 end
 
 def hit? (card_total)
