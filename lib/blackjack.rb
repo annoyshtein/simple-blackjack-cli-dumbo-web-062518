@@ -3,11 +3,15 @@ def welcome
 end
 
 def deal_card
+  puts "running deal_card"
   card = 1 + rand(11)
+  puts "Done running deal_card"
 end
 
 def display_card_total (card_total)
- puts "Your cards add up to #{card_total}"
+  puts "running display_card_total"
+  puts "Your cards add up to #{card_total}"
+  puts "done running display_card_total"
 end
 
 def prompt_user
