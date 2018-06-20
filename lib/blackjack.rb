@@ -39,6 +39,7 @@ def hit? (current_card_total)
   puts "running hit?"
   prompt_user
   choice = get_user_input
+  puts "Choice is #{choice}"
   if choice == "h"
     card_total = card_total + deal_card
   elsif choice != "s"
