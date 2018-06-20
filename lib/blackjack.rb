@@ -66,6 +66,7 @@ def runner
   puts "running runner"
   welcome
   card_total_counter = initial_round
+  puts "running runner"
   until card_total_counter >= 21
     hit? (card_total)
     display_card_total (card_total)
