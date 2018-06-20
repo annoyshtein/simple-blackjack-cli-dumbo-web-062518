@@ -41,7 +41,7 @@ def hit? (current_card_total)
   choice = get_user_input
   puts "Choice is #{choice}"
   if choice == "h"
-    new_card_total = card_total + deal_card
+    new_card_total = current_card_total + deal_card
   elsif choice != "s"
     invalid_command
     prompt_user
