@@ -71,6 +71,7 @@ def runner
     puts "card_total_counter is #{card_total_counter}"
     puts "We are in the loop."
     new_total = hit? (card_total_counter)
+    puts "new_total is #{new_total}"
     display_card_total (card_total)
   end
   end_game
