@@ -6,6 +6,7 @@ def deal_card
   puts "running deal_card"
   card = 1 + rand(11)
   puts "Done running deal_card"
+  return card
 end
 
 def display_card_total (card_total)
