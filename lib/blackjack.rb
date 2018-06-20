@@ -48,7 +48,7 @@ def hit? (current_card_total)
   else
   end
   puts "done running hit?"
-  return card_total
+  return new_card_total
 end
 
 def invalid_command
